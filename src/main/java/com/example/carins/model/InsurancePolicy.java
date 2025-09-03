@@ -1,5 +1,6 @@
 package com.example.carins.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import java.time.LocalDate;
@@ -11,6 +12,7 @@ public class InsurancePolicy {
     private Long id;
 
     @ManyToOne(optional = false, fetch = FetchType.LAZY)
+    @JsonIgnore
     private Car car;
 
     private String provider;
