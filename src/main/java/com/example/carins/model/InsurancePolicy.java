@@ -25,6 +25,9 @@ public class InsurancePolicy {
     @NotNull(message="End Date is required")
     private LocalDate endDate; // nullable == open-ended
 
+    @Column(nullable = false)
+    private boolean expiryLogged = false;
+
     public InsurancePolicy() {}
     public InsurancePolicy(Car car, String provider, LocalDate startDate, LocalDate endDate) {
         this.car = car; this.provider = provider; this.startDate = startDate; this.endDate = endDate;
@@ -39,4 +42,8 @@ public class InsurancePolicy {
     public void setStartDate(LocalDate startDate) { this.startDate = startDate; }
     public LocalDate getEndDate() { return endDate; }
     public void setEndDate(LocalDate endDate) { this.endDate = endDate; }
+    public boolean getExpiryLogged() { return expiryLogged;}
+    public void setExpiryLogged(boolean expiryLogged) {
+        this.expiryLogged = expiryLogged;
+    }
 }
