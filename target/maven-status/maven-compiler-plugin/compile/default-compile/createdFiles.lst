@@ -1,5 +1,6 @@
 com\example\carins\repo\CarRepository.class
 com\example\carins\web\dto\ClaimDto.class
+com\example\carins\web\CarHistoryController.class
 com\example\carins\model\Claim.class
 com\example\carins\repo\InsurancePolicyRepository.class
 com\example\carins\repo\OwnerRepository.class
@@ -14,4 +15,6 @@ com\example\carins\model\Car.class
 com\example\carins\web\dto\InsPolicyDTO.class
 com\example\carins\web\ClaimController.class
 com\example\carins\web\CarController$InsuranceValidityResponse.class
+com\example\carins\model\EventType.class
+com\example\carins\web\dto\CarHistoryDto.class
 com\example\carins\model\Owner.class

@@ -1,6 +1,7 @@
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\CarInsuranceApplication.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\model\Car.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\model\Claim.java
+C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\model\EventType.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\model\InsurancePolicy.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\model\Owner.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\repo\CarRepository.java
@@ -9,8 +10,10 @@ C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\repo\Insur
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\repo\OwnerRepository.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\service\CarService.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\CarController.java
+C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\CarHistoryController.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\ClaimController.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\dto\CarDto.java
+C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\dto\CarHistoryDto.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\dto\ClaimDto.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\dto\InsPolicyDTO.java
 C:\Users\User\Desktop\java\java-test\src\main\java\com\example\carins\web\InsPolicyController.java
